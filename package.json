@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A ReadMe.md generator which accepts user input in the Command-Line and then generates an appropriate, professional ReadMe.md file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avvisingh/README-Generator.git"
+  },
+  "author": "Avvi Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avvisingh/README-Generator/issues"
+  },
+  "homepage": "https://github.com/avvisingh/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
