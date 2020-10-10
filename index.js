@@ -30,9 +30,9 @@ inquirer
         }
     ])
     .then((response) => {
-        var fileName = response.projectname.toUpperCase().split('').join('') + '.md';
+        var fileName = 'README.md';
 
-        fs.writeFile(fileName, '#' + response.projectname + '\n\n', (err) => {
+        fs.writeFileSync(fileName, '## ' + response.projectname + ' ##' + '\n\n', (err) => {
             if (err) {
                 console.log('There was an error. Try Again!');
             } else {
@@ -43,8 +43,29 @@ inquirer
         var readmeContent = [response.description, response.installation, response.usage, response.contribution];
         var readmeTitle = ['Description', 'Installation', 'Usage', 'Contributing', 'Tests'];
 
+        // Table of Contents
+        readmeTitle.forEach((content, index) => {
+            if (index === 0) {
+                var contentLine = '# Table of Contents #\n' + '  ' + String(index + 1) + '. ' + content + '\n';
+            } else if (index === (readmeTitle.length - 1)) {
+                var contentLine = '  ' + String(index + 1) + '.' + content + '\n\n';
+            } else {
+                var contentLine = '  ' + String(index + 1) + '.' + content + '\n';
+            }
+            fs.appendFileSync(fileName, contentLine, (err) => {
+                if (err) {
+                    console.log('Error');
+                } else {
+                    console.log('All G');
+                }
+            })
+        })
+
         readmeContent.forEach((content, index) => {
+            console.log(index);
+            console.log(content);
             var titleIndex = readmeTitle[index];
+            console.log(titleIndex);
             fs.appendFileSync(fileName, titleIndex + '\n' + content + '\n\n', (err) => {
                 if (err) {
                     console.log('There was an error. Try Again!');
@@ -53,6 +74,5 @@ inquirer
                 }
             });
         });
-
 
     });
