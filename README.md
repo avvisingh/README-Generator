@@ -11,24 +11,24 @@
 * [License](###license)
 
 ### Description
-functions...
+This project functions as a README Genrator which will take input from the developer, at the command line, and then, based on that input, will generate a README.md file specific to the project.
 
 ### Installation
-install...
+This app can be installed from my github account, the link to which I have provided below in the 'Questions' section
 
 ### Usage
-usage...
+To use this app, run 'node index.js' at the command line and then answer all of the prompts one-by-one. Be sure to have any dependencies installed which are outlined in the package.json
 
 ### Contributing
-contribute...
+With queries regarding contribution, please email me at the ID I have provided below in the 'Questions' section
 
 ### Tests
-testing...
+Manual Testing
 
 ### Questions
 [Github Acc.] (https://github.com/avvisingh)
-email...
-ai...
+singh.avvi98@gmail.com
+Please email me with any further questions
 
 ### License
 Licensed under _Do What the Fuck You Want to Public License_
