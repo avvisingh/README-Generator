@@ -23,11 +23,11 @@ To use this app, run 'node index.js' at the command line and then answer all of 
 With queries regarding contribution, please email me at the ID I have provided below in the 'Questions' section
 
 ### Tests
-Manual Testing
+Manually Tested
 
 ### Questions
 [Github Acc.] (https://github.com/avvisingh)
-singh.avvi98@gmail.com
+singh.avv98@gmail.com
 Please email me with any further questions
 
 ### License
