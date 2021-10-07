@@ -1,35 +1,39 @@
-# README Generator
-[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+# Employee Tracker CLI
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-* [Description](###description)
-* [Installation](###installation)
-* [Usage](###usage)
-* [Contributing](###contributing)
-* [Tests](###tests)
-* [Questions](###questions)
-* [License](###license)
+
+- [Description](###description)
+- [Installation](###installation)
+- [Usage](###usage)
+- [Contributing](###contributing)
+- [Tests](###tests)
+- [Questions](###questions)
+- [License](###license)
 
 ### Description
-This project functions as a README Genrator which will take input from the developer, at the command line, and then, based on that input, will generate a README.md file specific to the project.
+
+This is a CLI application which helps companies keep track of, and update, their company structure. Company admins can use this application to manage departments, employees and roles.
 
 ### Installation
-This app can be installed from my github account, the link to which I have provided below in the 'Questions' section
+
+Clone the package from my github repo and run it locally. Be sure to update the mysql connection with configuration settings that match your local mysql database.
 
 ### Usage
-To use this app, run 'node index.js' at the command line and then answer all of the prompts one-by-one. Be sure to have any dependencies installed which are outlined in the package.json
+
+This app needs to be run from your CLI. You will need to clone the repo, update the database configuration and run "npm i" to install the dependencies.
 
 ### Contributing
-With queries regarding contribution, please email me at the ID I have provided below in the 'Questions' section
 
 ### Tests
-Manually Tested
 
 ### Questions
+
 [Github Acc.] (https://github.com/avvisingh)
-singh.avv98@gmail.com
-Please email me with any further questions
+singh.avvi98@gmail.com
+Please email me at singh.avvi98@gmail.com with any questions
 
 ### License
-Licensed under _Do What the Fuck You Want to Public License_
 
+Licensed under _The MIT License_
